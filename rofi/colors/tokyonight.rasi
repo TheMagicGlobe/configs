@@ -1,0 +1,52 @@
+/* Tokyonight Rofi Theme */
+* {
+    background:   #1a1b26ff;
+    border-color: #414868ff;
+    text-color:   #a9b1d6ff;
+    selected-bg:  #414868ff;
+    selected-fg:  #c0caf5ff;
+    active-bg:    #414868ff;
+    active-fg:    #c0caf5ff;
+    urgent-bg:    #f7768eff;
+    urgent-fg:    #c0caf5ff;
+    border:       2px;
+    border-radius: 8px;
+    padding:      5px;
+    spacing:      4px;
+}
+
+element {
+    border: 0;
+    background: inherit;
+    foreground: inherit;
+}
+
+window {
+    background-color: @background;
+    border: 2px @border-color;
+    padding: 10px;
+}
+
+listview {
+    padding: 5px;
+}
+
+element.selected {
+    background-color: @selected-bg;
+    foreground: @selected-fg;
+}
+
+element.normal {
+    foreground: @text-color;
+}
+
+element.urgent {
+    background-color: @urgent-bg;
+    foreground: @urgent-fg;
+}
+
+scrollbar {
+    background-color: @background;
+    handle-color: @border-color;
+}
+

@@ -1,0 +1,51 @@
+{
+    "layer": "top", // Waybar at the top layer
+    "position": "top", // Waybar position at the top of the screen
+    "height": 30, // Waybar height
+    "spacing": 4, // Gaps between modules (4px)
+
+    // Choose the order of the modules
+    "modules-left": [
+        "sway/workspaces"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "pulseaudio",
+        "tray"
+    ], // Modules on the right side (added tray)
+
+    // Configuration for Sway workspaces
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true
+    },
+
+    // Pulseaudio configuration (Sound settings)
+	"pulseaudio": {
+    	"format": "󰖀{volume}% ", // Shows volume percentage with an icon
+    	"on-click": "pavucontrol",
+    	"format-icons": {
+        	"low": "󰕿", // Icon for volume 0-33% (e.g., small speaker icon)
+        	"medium": "󰖀", // Icon for volume 34-66% (e.g., medium speaker icon)
+        	"high": "󰕾" // Icon for volume 67-100% (e.g., large speaker icon)
+    		},
+	},
+    // Clock configuration
+    "clock": {
+	"format": "{:%H:%M:%S}", // Displays time in hours:minutes:seconds
+	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>", // Tooltip with year, month, and a small calendar
+	"format-alt": "{:%A, %d/%m/%Y}" // Alternative format to show Day of the week, Day/Month/Year
+
+    },
+
+    // System tray configuration
+    "tray": {
+        "icon-size": 16, // Icon size in the tray
+        "spacing": 4 // Spacing between tray icons
+    }
+}
+

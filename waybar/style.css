@@ -1,0 +1,77 @@
+@define-color base      #1a1b26;
+@define-color text      #c0caf5;
+@define-color select    #565f89;
+@define-color urgent    #ff9e64;
+@define-color red       #f7768e;
+@define-color green     #9ece6a;
+@define-color blue      #7aa2f7;
+* {
+    font-family: FontAwesome, JetBrains Mono Nerd Font;
+    font-size: 18px;
+}
+
+window#waybar {
+    background-color: @base;
+    color: @text;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#window {
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: none;
+}
+
+button {
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    background-color: @base;
+    color: @text;
+}
+
+#workspaces button:hover {
+    background: @select;
+}
+
+#workspaces button.active {
+    background-color: @select;
+    color: @text;
+}
+
+#workspaces button.urgent {
+    background-color: @urgent;
+}
+
+#cpu {
+    margin: 5px 6px 5px 6px;
+    color: @text;
+}
+
+#memory {
+    margin: 5px 6px 5px 6px;
+    color: @text;
+}
+
+#tray {
+    margin-right: 10px;
+}
+
+#window,
+#workspaces {
+    margin: 0 4px;
+    color: @text;
+}
+
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}

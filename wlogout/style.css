@@ -1,0 +1,64 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+/* Darker window background */
+window {
+	background-color: rgba(17, 18, 26, 0.9); /* Deeper blue-gray */
+}
+
+button {
+    border-radius: 0;
+    border-color: #1B1E2B; /* Darker border */
+	text-decoration-color: #FFFFFF; /* Bright white for text decoration */
+    color: #FFFFFF; /* Bright white for button text */
+	background-color: #1A1B26; /* Darker button background */
+	border-style: solid;
+	border-width: 1px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+}
+
+/* Button hover/active color - Darker Tokyo Night blue */
+button:focus, button:active, button:hover {
+	background-color: #565F89; /* Darker hover color */
+	outline-style: none;
+}
+
+/* Lock button icon */
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+/* Logout button icon */
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+/* Suspend button icon */
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+/* Hibernate button icon */
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+/* Shutdown button icon */
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+/* Reboot button icon */
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
+
