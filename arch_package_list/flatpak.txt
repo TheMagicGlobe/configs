@@ -1,0 +1,5 @@
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.obsproject.Studio
+flatpak install flathub net.davidotek.pupgui2
+flatpak install flathub com.usebottles.bottles
+flatpak install flathub com.heroicgameslauncher.hgl
