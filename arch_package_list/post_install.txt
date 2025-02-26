@@ -66,6 +66,7 @@ thunar-volman
 timeshift
 tmux
 ttf-liberation
+ttf-jetbrains-mono-nerd
 tumbler
 ufw
 vim
