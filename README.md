@@ -2,7 +2,8 @@
 GTK theme source: https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme
 
 I will provide no support no warranty no nothing. These are just my config files and I am offering you the possibility to see them and use them.
-Screenshot provided bellow
+
+**Screenshot provided bellow**
 
 ![20250227_06h10m42s_grim](https://github.com/user-attachments/assets/73237fcd-8664-4c43-8b2c-b449f54e4297)
 
