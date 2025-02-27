@@ -216,7 +216,7 @@ for_window [class="^steam$" title="^Steam Keyboard$"] floating enable
 
 # Specific window placement to workspaces
 for_window [app_id="firefox"] move to workspace 2
-for_window [class="discord"] move to workspace 4
+
 # Status Bar:
 bar {
    swaybar_command waybar
