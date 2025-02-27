@@ -2,6 +2,7 @@ adobe-source-sans-fonts
 adobe-source-serif-fonts
 amd-ucode
 amdvlk
+autotiling
 base
 base-devel
 blueman
@@ -15,7 +16,10 @@ file-roller
 firefox
 flatpak
 fzf
+gamemode
+gamescope
 git
+goverlay
 grim
 gst-plugin-pipewire
 gtk-engine-murrine
@@ -26,6 +30,7 @@ lib32-mesa
 lib32-pipewire
 libgsf
 libpulse
+libreoffice-fresh
 linux
 linux-firmware
 linux-headers
@@ -35,6 +40,7 @@ lxappearance
 ly
 man-db
 man-pages
+mangohud
 networkmanager
 noto-fonts
 noto-fonts-cjk
@@ -52,6 +58,7 @@ qt5ct
 qt6ct
 rofi-wayland
 slurp
+steam
 sudo
 sway
 swaybg
@@ -65,8 +72,8 @@ thunar-media-tags-plugin
 thunar-volman
 timeshift
 tmux
-ttf-liberation
 ttf-jetbrains-mono-nerd
+ttf-liberation
 tumbler
 ufw
 vim
