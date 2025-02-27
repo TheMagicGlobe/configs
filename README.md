@@ -1,4 +1,3 @@
-If you see this you stumbeled upon the testing branch I would highly advise AGAINST taking configs from here
 *My slightly cursed, sometimes working config files made from, official documentaion and all ready existing config repositories.*
 GTK theme source: https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme
 
