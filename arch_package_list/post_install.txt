@@ -1,5 +1,6 @@
 adobe-source-sans-fonts
 adobe-source-serif-fonts
+autotiling
 amd-ucode
 amdvlk
 autotiling
