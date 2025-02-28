@@ -31,5 +31,5 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 15
 
 vim.opt.tabstop = 4 -- Set the number of visual spaces per tab
-vim.opt.shiftwidth = 2 -- Set the number of spaces for auto-indents
+vim.opt.shiftwidth = 4 -- Set the number of spaces for auto-indents
 vim.opt.expandtab = true -- Convert tabs to spaces
