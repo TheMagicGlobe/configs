@@ -3,7 +3,7 @@ linux-headers
 linux-lts
 linux-lts-headers
 linux-firmware
-amd-ucode
+amd-ucode // your CPU micro code here
 vim
 sudo
 networkmanager

@@ -2,7 +2,7 @@ adobe-source-sans-fonts
 adobe-source-serif-fonts
 autotiling
 amd-ucode
-amdvlk
+vulkan-radeon // your graphics driver here
 autotiling
 base
 base-devel
@@ -26,7 +26,7 @@ gst-plugin-pipewire
 gtk-engine-murrine
 gvfs
 kitty
-lib32-amdvlk
+lib32-vulkan-radeon //your lib32 graphics driver here
 lib32-mesa
 lib32-pipewire
 libgsf
