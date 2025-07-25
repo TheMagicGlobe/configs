@@ -205,6 +205,9 @@ for_window [app_id="qt5ct"] floating enable
 # VLC
 for_window [class="vlc"] floating enable
 for_window [title="vlc"] floating enable
+# MPV
+for_window [class="mpv"] floating enable
+for_window [title="mpv"] floating enable
 # Pavucontrol
 for_window [app_id="pavucontrol"] floating enable
 # Make blueman-manager open in a floating window
